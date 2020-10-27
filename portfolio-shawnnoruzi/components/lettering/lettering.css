@@ -1,0 +1,37 @@
+.lettering {
+  color: #fff;
+  font-family: monospace;
+  text-align: center;
+  position: relative;
+}
+
+.lettering h1 {
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 24px;
+}
+
+.lettering p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 8px;
+  width: 900px;
+
+}
+
+
+@media (max-width: 920px) {
+  .lettering h1 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 24px;
+    margin-top:50px;
+  }
+
+  .lettering p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8px;
+    width: auto;
+  }
+}
