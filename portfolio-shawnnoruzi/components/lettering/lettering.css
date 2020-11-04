@@ -1,6 +1,6 @@
 .lettering {
   color: #fff;
-  font-family: monospace;
+  font-family: Montserrat, tahoma, verdana, sans-serif;
   text-align: center;
   position: relative;
 }
@@ -23,7 +23,7 @@
 }
 .letteringSecondPage {
   color: #fff;
-  font-family: monospace;
+  font-family: Montserrat, tahoma, verdana, sans-serif;
   text-align: center;
   position: relative;
 }

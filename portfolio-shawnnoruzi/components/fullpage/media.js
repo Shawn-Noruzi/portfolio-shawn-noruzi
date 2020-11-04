@@ -122,7 +122,7 @@ export const Third = withNavigationContext(({ fullpage }) => {
         }
         action={
           <div className="button">
-            <a href="/static/ShayanNoruziResume.pdf" download>
+            <a href="/static/ShayanNoruziResume.docx" download>
               <AwesomeButton size="large">Download my Resume</AwesomeButton>
             </a>
           </div>

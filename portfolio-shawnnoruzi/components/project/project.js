@@ -46,7 +46,7 @@ const useStyles = makeStyles({
   },
   title: {
     color: "#fff",
-    fontFamily: "monospace",
+    fontFamily: "Montserrat, tahoma, verdana, sans-serif",
     textAlign: "center",
     fontSize: "32px",
     lineHeight: "40px",
@@ -55,7 +55,7 @@ const useStyles = makeStyles({
   },
   titlePhone: {
     color: "#fff",
-    fontFamily: "monospace",
+    fontFamily: "Montserrat, tahoma, verdana, sans-serif",
     textAlign: "center",
     fontSize: "32px",
     lineHeight: "40px",
@@ -64,7 +64,7 @@ const useStyles = makeStyles({
   },
   body: {
     color: "#fff",
-    fontFamily: "monospace",
+    fontFamily: "Montserrat, tahoma, verdana, sans-serif",
     textAlign: "center",
     fontSize: "16px",
     lineHeight: "24px",
@@ -78,7 +78,7 @@ const useStyles = makeStyles({
     },
     title: {
       color: "#fff",
-      fontFamily: "monospace",
+      fontFamily: "Montserrat, tahoma, verdana, sans-serif",
       textAlign: "center",
       fontSize: "32px",
       lineHeight: "40px",
@@ -86,7 +86,7 @@ const useStyles = makeStyles({
     },
     body: {
       color: "#fff",
-      fontFamily: "monospace",
+      fontFamily: "Montserrat, tahoma, verdana, sans-serif",
       textAlign: "center",
       fontSize: "16px",
       lineHeight: "24px",
@@ -95,7 +95,7 @@ const useStyles = makeStyles({
     },
     title: {
       color: "#fff",
-      fontFamily: "monospace",
+      fontFamily: "Montserrat, tahoma, verdana, sans-serif",
       textAlign: "center",
       fontSize: "32px",
       lineHeight: "40px",
@@ -104,7 +104,7 @@ const useStyles = makeStyles({
     },
     titlePhone: {
       color: "#fff",
-      fontFamily: "monospace",
+      fontFamily: "Montserrat, tahoma, verdana, sans-serif",
       textAlign: "center",
       fontSize: "32px",
       lineHeight: "40px",
@@ -113,7 +113,7 @@ const useStyles = makeStyles({
     },
     body: {
       color: "#fff",
-      fontFamily: "monospace",
+      fontFamily: "Montserrat, tahoma, verdana, sans-serif",
       textAlign: "center",
       fontSize: "16px",
       lineHeight: "24px",
