@@ -116,7 +116,7 @@ export const Third = withNavigationContext(({ fullpage }) => {
         }
         action={
           <div className="button">
-            <a href="/static/ShayanNoruziResume.pdf" class="button" download>
+            <a href="/static/ShayanNoruziResume.pdf" download>
               <AwesomeButton size="large">Download my Resume</AwesomeButton>
             </a>
           </div>
@@ -167,21 +167,21 @@ export const media = [
         </Section>
         <Section wrapper={false} backgroundColor="#3B6AA0">
           <Project
-            src="/static/git.png"
+            src="/static/images/git.png"
             title={projects.gitpay.title}
             description={projects.gitpay.description}
           />
         </Section>
         <Section wrapper={false} backgroundColor="#4158b4">
           <Project
-            src="/static/place.PNG"
+            src="/static/images/place.PNG"
             title={projects.placespeak.title}
             description={projects.placespeak.description}
           />
         </Section>
         <Section wrapper={false} backgroundColor="#3B6AA0">
           <Project
-            src="/static/open.png"
+            src="/static/images/open.PNG"
             phone={true}
             title={projects.openmentor.title}
             description={projects.openmentor.description}
