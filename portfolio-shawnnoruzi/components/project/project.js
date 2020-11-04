@@ -15,6 +15,9 @@ const useStyles = makeStyles({
       color: "white",
     },
   },
+  spacer:{
+    width:'150px'
+  },
   buttonGit: {
     color: "#00FFFF",
     borderColor: "#00FFFF",
@@ -75,6 +78,9 @@ const useStyles = makeStyles({
     projectContainer: {
       display: "flex",
       flexDirection: "column",
+    },
+    spacer:{
+      visibility:'hidden'
     },
     title: {
       color: "#fff",
@@ -146,6 +152,7 @@ export default function Project({
   return (
     <div className={classes.projectContainer}>
       <img alt={alt} src={src} className={classes.projectImage} />
+      <div className={classes.spacer}></div>
       <div className={classes.contentContainer}>
         <p className={classes.title}>{title}</p>
         <p className={classes.body}>{description}</p>
