@@ -1,7 +1,7 @@
 import React from 'react';
 import './lettering.css';
 
-const Lettering = ({ text = [], title = '' }) => {
+const Lettering = ({ text = [], title = '' , SecondPage}) => {
   const renderText = () => {
     return text && text.length
       ? text.map((line, index) => {
@@ -11,7 +11,7 @@ const Lettering = ({ text = [], title = '' }) => {
   };
 
   return (
-    <div className="lettering">
+    <div className={SecondPage ? 'letteringSecondPage' :"lettering"}>
       <h1>{title}</h1>
       {renderText()}
     </div>
