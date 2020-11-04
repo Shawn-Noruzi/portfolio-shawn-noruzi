@@ -17,16 +17,22 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
 const projects = {
   gitpay: {
+    site: 'https://gitpay.me/#/',
+    git: 'https://github.com/worknenjoy/gitpay',
     title: "GitPay",
     description:
       "Collaborate, learn and receive payments by solving issues from projects",
   },
   placespeak: {
+    site: 'https://www.placespeak.com/en/#/',
+    git: 'https://github.com/PlaceSpeak',
     title: "PlaceSpeak",
     description:
       "PlaceSpeak is a location-based community consultation platform. Claim your place. Speak your mind. Influence the outcome.",
   },
   openmentor: {
+    site: 'https://angel.co/company/openmentorship/people',
+    git: 'https://github.com/nikhil-g777/openmentorship',
     title: "OpenMentorship",
     description:
       "Find the Mentor you always wanted on this Tinder-Like mentor finding app.",
@@ -170,6 +176,8 @@ export const media = [
             src="/static/images/git.png"
             title={projects.gitpay.title}
             description={projects.gitpay.description}
+            site={projects.gitpay.site}
+            git={projects.gitpay.git}
           />
         </Section>
         <Section wrapper={false} backgroundColor="#4158b4">
@@ -177,6 +185,8 @@ export const media = [
             src="/static/images/place.PNG"
             title={projects.placespeak.title}
             description={projects.placespeak.description}
+            site={projects.placespeak.site}
+            git={projects.placespeak.git}
           />
         </Section>
         <Section wrapper={false} backgroundColor="#3B6AA0">
@@ -185,6 +195,8 @@ export const media = [
             phone={true}
             title={projects.openmentor.title}
             description={projects.openmentor.description}
+            site={projects.openmentor.site}
+            git={projects.openmentor.git}
           />
         </Section>
       </Page>

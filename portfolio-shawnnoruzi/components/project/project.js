@@ -101,7 +101,6 @@ const useStyles = makeStyles({
       lineHeight: "40px",
       marginTop: "40px",
       marginBottom: "24px",
-
     },
     titlePhone: {
       color: "#fff",
@@ -119,9 +118,9 @@ const useStyles = makeStyles({
       fontSize: "16px",
       lineHeight: "24px",
       marginBottom: "8px",
-      width: '300px',
-      margin: '10px',
-      marginBottom: '45px'
+      width: "300px",
+      margin: "10px",
+      marginBottom: "45px",
     },
     projectImage: {
       width: "300px",
@@ -139,37 +138,39 @@ export default function Project({
   alt = "project",
   title,
   description,
-  phone,
+  git,
+  site
 }) {
   const classes = useStyles();
 
   return (
     <div className={classes.projectContainer}>
-      <img
-        alt={alt}
-        src={src}
-        className={classes.projectImage}
-      />
+      <img alt={alt} src={src} className={classes.projectImage} />
       <div className={classes.contentContainer}>
         <p className={classes.title}>{title}</p>
         <p className={classes.body}>{description}</p>
         <div className={classes.buttonContainer}>
-          <Button
-            variant="contained"
-            size="large"
-            color="primary"
-            className={classes.buttonSite}
-          >
-            View Site
-          </Button>
-          <Button
-            variant="outlined"
-            size="large"
-            color="primary"
-            className={classes.buttonGit}
-          >
-            Github
-          </Button>
+          <a style={{textDecoration:'none'}} href={site}>
+            <Button
+              variant="contained"
+              size="large"
+              color="primary"
+              className={classes.buttonSite}
+            >
+              View Site
+            </Button>
+          </a>
+
+          <a style={{textDecoration:'none'}} href={git}>
+            <Button
+              variant="outlined"
+              size="large"
+              color="primary"
+              className={classes.buttonGit}
+            >
+              Github
+            </Button>
+          </a>
         </div>
       </div>
     </div>
