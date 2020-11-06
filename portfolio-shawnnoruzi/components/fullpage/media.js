@@ -14,18 +14,21 @@ import MailOutlineIcon from "@material-ui/icons/MailOutline";
 import PhoneIcon from "@material-ui/icons/Phone";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import MediaBar from "../mediabar/mediabar";
+import { makeStyles } from '@material-ui/styles';
 import Button from "@material-ui/core/Button";
 
-const style = {
-  color: "#00FFFF",
-  borderColor: "#00FFFF",
-  width: "300px",
-  margin: "10px",
-  "&:hover": {
-    backgroundColor: "#00FFFF",
-    color: "white",
+
+const useStyles = makeStyles({
+  root: {
+    color: "#00FFFF",
+    borderColor: "#00FFFF",
+    width: "300px",
+    margin: "10px",
+    "&:hover": {
+      background: "#00FFFF",
+    },
   },
-};
+});
 
 const projects = {
   gitpay: {
@@ -86,12 +89,12 @@ export const Home = withNavigationContext(({ fullpage }) => {
   );
 });
 
-export const SecondPage = withNavigationContext(() => {
+export const SecondPage = withNavigationContext((props) => {
+
+  const classes = useStyles(props);
 
   const gitRef = useRef();
-  
   const placeRef = useRef();
-  
   const openRef = useRef();
 
   function handleGitClick() {
@@ -134,7 +137,7 @@ export const SecondPage = withNavigationContext(() => {
                   variant="outlined"
                   size="large"
                   color="primary"
-                  style={style}
+                  className={classes.root}
                   onClick={handleGitClick}
                 >
                   GitPay
@@ -143,7 +146,7 @@ export const SecondPage = withNavigationContext(() => {
                   variant="outlined"
                   size="large"
                   color="primary"
-                  style={style}
+                  className={classes.root}
                   onClick={handlePlaceClick}
                 >
                   PlaceSpeak
@@ -152,7 +155,7 @@ export const SecondPage = withNavigationContext(() => {
                   variant="outlined"
                   size="large"
                   color="primary"
-                  style={style}
+                  className={classes.root}
                   onClick={handleOpenClick}
                 >
                   Open Mentorship
