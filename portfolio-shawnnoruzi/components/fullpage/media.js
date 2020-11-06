@@ -132,7 +132,7 @@ export const SecondPage = withNavigationContext((props) => {
               >
                 <GitHubIcon style={{ fill: "black" }} fontSize="large" />
               </a>
-              <div style={{ marginTop: "50px" }}>
+              <div style={{ marginTop: "50px", textAlign: 'center' }}>
                 <Button
                   variant="outlined"
                   size="large"
