@@ -27,3 +27,25 @@
   text-align: center;
   color: #fff;
 }
+
+.photo {
+  width: 250px;
+  border-radius: 7.5rem;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.buttonGit {
+  color: #00FFFF;
+  border-color:#00FFFF;
+  width: 300px;
+  margin: 10px;
+}
+
+
+
+@media (max-width: 920px) {
+  .photo {
+display:none;
+  }
+}

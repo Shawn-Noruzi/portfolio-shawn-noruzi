@@ -16,6 +16,7 @@ function App({ Component, pageProps }) {
           content="width=device-width,minimum-scale=0.8,maximum-scale=1,user-scalable=no"
         />
         <meta name="description" content="Portfolio - Shawn Noruzi" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
         <link rel="shortcut icon" href="/static/favicon.ico" />
       </Head>
       <Layout>
